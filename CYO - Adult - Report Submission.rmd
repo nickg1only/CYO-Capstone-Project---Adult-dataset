@@ -1,0 +1,30 @@
+---
+title: "CYO - Adult - Report Submission"
+author: "Nikhil"
+date: "1/5/2021"
+output: pdf_document
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+In this project, I intend to use information on adults from the 1994 Census database to predict whether individuals had an income higher than $50,000 or not based on certain known features about the individuals.
+
+The dataset I used for this project comes from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Adult). It consists of 14 features and 1 outcome. The features are listed here:
+
+```{r features}
+invisible(source("CYO - Adult - R Script Submission.R"))
+
+names(adult[,-15])
+```
+
+## Methods
+
+
+## Results
+
+
+## Conclusion
